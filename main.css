@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    padding: 0;     
+    margin: 0;
+}
+
+body{
+    background-color: rgba(213, 243, 79, 0.425);
+    background-image:url;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+
+}
+body>header {
+    padding: 8px 0;
+    color: #fff;
+    background-color: rgb(15, 15, 15);
+    z-index: 4;
+}
+    
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+section .container {
+    justify-content:space-evenly;
+}
+
+header .menu li {
+    margin: 6px;
+    padding: 5px;
+    display:inline-flex;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+header .menu li a{
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Righteous', cursive;
+    font-weight: normal;
+}
+
+.marcolino {
+    border-right: 10px solid red;
+    border-left: 10px solid red;
+    padding: 5px;
+    font-family: 'Righteous', cursive;
+    font-weight: normal;
+    font-size: 125%;
+}
+
+.menu li {
+    border-style: double;
+    border-right: 4px solid red;
+    border-bottom: 4px solid red;
+}
+
+.container h3 {
+    font-size: 250%;
+    margin-top: 100px;
+    margin-bottom: -100px;
+    color: rgb(2, 44, 2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section {
+    margin: 140px;
+    margin-top: 200px;
+    margin-bottom: -40px;
+    padding-bottom: 200px;
+    border-bottom: 2px solid red;
+}
+section img {
+    height: 150px;
+    margin: 10px;
+}
+
+.articles2 img {
+    height: 380px;
+}
+
+#about .subtitle {
+    margin-top: 130px;
+}
+
+.subtitle {
+    margin-bottom: -60px;
+}
+
+section .subtitle h2 {
+    position: relative;
+    margin-bottom: 8px;
+    font-family: 'Righteous', cursive;
+    font-weight: normal;
+    font-size: 200%;
+    color: red;
+}
+
+#matricula .container {
+    margin-bottom: -60px;
+    margin-top: 150px;
+}
+
+.articles2 h4 {
+    font-family: 'Lobster Two', cursive;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.articles article h4 {
+    position: relative;
+    padding: 3px 0;
+    bottom: 54px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.788);
+    color: white;
+    text-align:center;
+    font-family: 'Righteous', cursive;
+    font-weight: normal;
+    font-size: 120%;
+}
+
+.subtitle h3 {
+    margin: 0px;
+    font-size: 30px;
+}
+
+form input, form button {
+    display:block;
+    width: 400px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+h4 {
+    font-family: 'Righteous', cursive;
+    font-weight: normal;
+}
+
+#matricula h4 {
+    position: relative;
+    top: 150px;
+}
+section ul li {
+    display:inline;
+}
+
+.contact-methods img {
+    height: 50px;
+}
+
+#contact .container2 {
+    display:flex;
+    justify-content:space-evenly;
+}
+.container2 h2 {
+    font-family: 'Righteous', cursive;
+    font-weight: normal;
+    font-size: 200%;
+    color: red;
+}
+.container2 li a {
+    text-decoration: none;
+}
+
+form button {
+    background-color:rgb(2, 44, 2);
+    color:#fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(37, 61, 37);
+}
+
+header nav a:hover {
+    background-color: rgba(255, 255, 255, 0.39);
+    padding: 6px;
+}
+
+footer {
+    padding: 22px 0;
+    color: #fff;
+    background-color: rgb(15, 15, 15);
+    font-family: 'Righteous', cursive;
+    font-weight: normal;
+    font-size: 125%;
+}
